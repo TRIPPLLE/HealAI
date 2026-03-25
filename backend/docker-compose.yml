@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  backend:
+    build: .
+    container_name: healai-backend
+    restart: always
+    ports:
+      # This maps port 8000 inside the container to port 8000 on your server's public IP
+      - "8000:8000"
+    environment:
+      # You can add environment variables here if needed later
+      - ENVIRONMENT=production

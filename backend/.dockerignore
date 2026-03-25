@@ -1,0 +1,15 @@
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.env
+
+# Git
+.git/
+.gitignore
+
+# Flutter / Frontend (if copied accidentally)
+../app/
