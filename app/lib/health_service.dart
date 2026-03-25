@@ -9,9 +9,9 @@ class HealthService {
   final Health health = Health();
   
   String get backendUrl {
-    if (kIsWeb) return "http://127.0.0.1:8000";
-    if (Platform.isAndroid || Platform.isIOS) return "http://192.168.68.108:8000";
-    return "http://127.0.0.1:8000";
+    if (kIsWeb) return "http://94.100.26.132:8000";
+    if (Platform.isAndroid || Platform.isIOS) return "http://94.100.26.132:8000";
+    return "http://94.100.26.132:8000";
   }
 
   Future<bool> requestPermissions() async {
